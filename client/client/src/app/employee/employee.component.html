@@ -1,0 +1,20 @@
+<app-person [event]></app-person>
+
+<h4>form employee</h4>
+<form class="form-inline">
+    <div class="form-group">
+      <label>Salary</label>
+      <input name="salary" type="text" class="form-control" [(ngModel)]="employee.salary" placeholder="Jane Doe">
+    </div>
+    <br><br>
+    <div class="form-group">
+      <label>Sure</label>
+      <input name="sure" type="text" class="form-control" [(ngModel)]="employee.sure" placeholder="jane.doe@example.com">
+    </div>
+<!--    <br><br>-->
+<!--    <button type="submit" (click)="save()" class="btn btn-info">Send invitation</button>-->
+<!--    <div class="col-md-12">-->
+<!--        <p> {{salary}} </p>-->
+<!--        <p> {{sure}} </p>-->
+<!--    </div>-->
+</form>

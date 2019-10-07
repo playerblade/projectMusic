@@ -1,0 +1,34 @@
+<!-- <br><br>
+  <div class="container">
+    <form class="form-inline">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input name="name" type="text" class="form-control" [(ngModel)]="name" placeholder="Jane Doe">
+        </div>
+        <br><br>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input name="email" type="email" class="form-control" [(ngModel)]="email" placeholder="jane.doe@example.com">
+        </div>
+        <br><br>
+        <button type="submit" (click)="save()" class="btn btn-info">Send invitation</button>
+        <div class="col-md-12">
+          <p> {{name}} </p>
+          <p> {{email}} </p>
+        </div>
+        <div *ngFor="let user of userList">
+          <h1>{{user.name}}</h1>
+          <h3>{{user.email}}</h3>
+        </div>
+    </form>
+</div> -->
+<!--<app-person></app-person>-->
+<app-employee></app-employee>
+<button type="submit" (click)="save()" class="btn btn-info">Send invitation</button>
+<div class="col-md-12">
+    <p> {{ci}} </p>
+    <p> {{name}} </p>
+    <p> {{lastName}} </p>
+    <p> {{salary}} </p>
+    <p> {{sure}} </p>
+</div>
